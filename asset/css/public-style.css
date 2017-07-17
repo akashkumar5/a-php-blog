@@ -1,0 +1,123 @@
+
+.index-post-image{
+    width: 100%;
+}
+.list-category a{
+    display: block;
+    list-style: none;
+    background-color:tomato;
+    padding:  10px 0 10px 20px;
+    text-align: justify;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-top: -8px;
+    border-radius: 6px;
+    margin-left: -25px;
+}
+.list-category li{
+    margin :0 0 0 8px;
+}
+.list-category a:hover{
+    display: block;
+    list-style: none;
+    background-color:maroon;
+    padding:  10px 0 10px 20px;
+    text-align: justify;
+    color: antiquewhite;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-top: -8px;
+}
+nav{
+    padding: 7px 25px !important;
+    margin: 0 4px;
+    border-radius: 2px;
+}
+nav .nav-item a{
+    color: white;
+    padding: 7px 10px !important;
+}
+nav .nav-item a:hover{
+    color:coral;
+}
+nav .navbar-brand {
+    color: white;
+    padding: 7px 10px !important;
+}
+.post-image{
+    padding: 0 30%;   
+}
+.post-title{
+    margin: 0 0 5px 3%;
+}
+.post-date{
+    text-align: right;
+}
+.category-card{
+    height: 300px; 
+}
+.category-card a{
+    position: absolute;
+    right:    0;
+    bottom:   0;
+}
+.comment-area{
+    padding: 16px;
+    margin: 10px;
+    background-color: darksalmon;
+    border-radius: 20px !important;
+}
+.comment-box{
+    min-height: 80px;
+    max-width: 600px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    padding: 9px 11px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #c5c5c5;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 25);
+    -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 25);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    
+}
+.comment-no{
+    min-height: 80px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    padding: 15px 2px 0 2px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #c5c5c5;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 25);
+    -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 25);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: black;
+    
+    
+}
+.comment{
+    color: black;
+    padding: 2px 0 1px 15px;
+    margin: auto;
+}
+.comment-by{
+    color: palevioletred;
+}
+footer{
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    margin-top: 5px;
+    display: block;
+}
+footer .copyright{
+    margin-top: 10px;
+    margin-right: 9px;
+}
+button .navbar-toggler{
+    color: white;
+}

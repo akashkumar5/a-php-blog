@@ -1,0 +1,41 @@
+.admin-panel-title{
+    padding : 7px 0px;
+}
+.admin-content{
+    min-height: 100px;
+    margin: 10px 10%;
+    padding: 3%;
+    font-size: 2em;
+    color: black;
+}
+.login-box{  
+    margin-top: 100px;
+    border-radius: 6px;
+    border: 2px solid black;
+    
+}
+nav a{
+    color: black !important;
+}
+nav .navbar-nav a:hover{
+    color: white !important;
+    background-color: black;
+}
+.card .card-block  p{
+    font-size: 0.9em !important;
+}
+.posts-card {
+    min-height: 300px;
+}
+.post-button{
+    position: absolute;
+    left:    0;
+    bottom:   0;
+    margin: 3px;
+}
+.post-button1{
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    margin: 3px;
+}
