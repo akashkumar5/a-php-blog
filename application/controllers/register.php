@@ -34,7 +34,7 @@
             //load model
             $this->admin_model->register($password);
             $this->session->set_flashdata('registered','registration success full now you can login');
-            redirect('user/login');
+            redirect('admin/login');
         }
         }else{
             redirect('user/index');
