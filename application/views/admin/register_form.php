@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-4 offset-md-4 bg-primary">
         <?php echo validation_errors() ?>
-        <?php echo form_open('admin/register') ?>
+        <?php echo form_open('register/user') ?>
         <h3 class="text-center"><?php echo $title ?></h3><hr>
         <div class="form-group">
             <label>Name:</label>

@@ -43,7 +43,7 @@ class admin extends CI_Controller{
             }
             else{
                 $this->session->set_flashdata('login_failed', 'login credential are wrong');
-                redirect('user/login');
+                redirect('admin/login');
                 
             }
         }
@@ -100,7 +100,7 @@ class admin extends CI_Controller{
     }
     
     
-    */
+    
     
     //check for the username exist or not
     function username_already_exist($username){
@@ -120,7 +120,7 @@ class admin extends CI_Controller{
         else{
             return false;
         }
-    }
+    }*/
     //end of register form
 }
 ?>
